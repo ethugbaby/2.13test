@@ -26,7 +26,7 @@ try:
     
     # read bmp file 
     logging.info("2.read bmp file...")
-    image = Image.open(os.path.join(picdir, 'Untitled-1.bmp'))
+    image = Image.open(os.path.join(picdir, 'buddy.bmp'))
     epd.display(epd.getbuffer(image))
     time.sleep(10)
     
